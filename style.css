@@ -21,16 +21,22 @@
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
+  border-radius: 50%;
    }
    
    img {
+    border-radius: 50%;
      stroke-width: 50px;
      vertical-align: middle;
+   
    }
    
    .text {
+ 
+    float: left;
      font-size: 18px;
      max-width: max-content;
+     display: grid;
    
 
    }
@@ -45,7 +51,22 @@
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
    }
    .schools{
-    border: 1px solid black;
+    display: inline-block;
     max-width: fit-content;
-    align-items: center; 
+    margin: left;
+    width: fit-content;
+    padding: 15px;
+  
+
    }
+   
+
+   .wik{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 6px;
+    border-radius: 50%;
+   }
+  
